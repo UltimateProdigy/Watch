@@ -10,7 +10,7 @@ const Trendingcard = ({ img, title, year, movietype }) => {
       </div>
       <div className="bottomcard">
         <p className="moviename">{title}</p>
-        <p>
+        <p className="p">
           {year} | {movietype}
         </p>
       </div>

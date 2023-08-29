@@ -1,17 +1,17 @@
 .likebtn {
-    width: 28px;
-    height: 28px;
-    background-color: aliceblue;
-    border-radius: 10px;
-    text-align: center;
-    cursor: pointer;
+  width: 28px;
+  height: 28px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  background-color: #FFF;
+  backdrop-filter: blur(5.925926208496094px);
 }
 .filled {
-    display: none;
-    width: 27px;
-
+  display: none;
+  width: 27px;
 }
 .unfilled {
-    margin-left: 2px;
-    padding-top: 2px;
+  margin-left: 2px;
+  padding-top: 2px;
 }

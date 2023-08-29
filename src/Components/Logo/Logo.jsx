@@ -2,9 +2,9 @@ import React from "react";
 import Coffee from "../../Assets/Images/coffee.png";
 import "./Logo.css";
 
-const Logo = () => {
+const Logo = ({className}) => {
     return (
-      <div className="flex">
+      <div className={className}>
         <img src={Coffee} alt="coffee" />
         <p>WATCH</p>
       </div>

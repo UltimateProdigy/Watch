@@ -1,0 +1,35 @@
+.sidenav {
+  height: 100%;
+  width: 290px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  box-shadow: 2px 0px 90px 0px rgba(97, 0, 194, 0.40);
+  
+}
+.navitem {
+    padding: 50px;
+}
+.navlogo {
+    padding-left: 50px;
+    padding-top: 10px;
+}
+.nav1 li {
+    margin: 20px 0;
+}
+.nav2{
+    padding-top: 50px;
+}
+.nav2 li {
+    margin: 15px 0;
+}
+.nav3 {
+    margin-top: 100px;
+}
+.nav3 li {
+    margin: 15px 0;
+}

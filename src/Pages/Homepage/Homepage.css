@@ -1,0 +1,39 @@
+.homepagebackground {
+  padding-top: 250px;
+  background-image: url("../../Assets/Images/Movie\ Background.png");
+}
+.homepagebackground h1 {
+  color: #fff;
+  font-size: 55px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px; /* 100% */
+  padding-left: 30px;
+  padding-bottom: 20px;
+}
+.homepagebackground p {
+  padding-left: 30px;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+.button {
+  width: 140px;
+  margin-left: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+h3 {
+  color: #fff;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+.trending-list {
+  margin-left: 30px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}

@@ -1,0 +1,37 @@
+section {
+  top: 0;
+  width: 80%;
+  position: fixed;
+  z-index: 999;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 15px;
+  margin-right: 30px;
+  margin-top: 30px;
+}
+
+.list li {
+  color: #fff;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 112.5% */
+  list-style: none;
+  padding: 0 20px;
+}
+p {
+  color: #fff;
+  margin-top: 3px;
+  padding-right: 20px;
+  font-weight: 500;
+}
+.navbar2 {
+  padding-right: 20px;
+  margin-top: 3px;
+}
+.profile {
+  padding-right: 7px;
+}

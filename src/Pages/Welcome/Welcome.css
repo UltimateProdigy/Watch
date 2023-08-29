@@ -1,0 +1,33 @@
+.welcome {
+   text-align: center;
+   background-image: url("./Background\ Layer.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   padding-top: 220px;
+}
+.enjoy {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 111.111% */
+  padding-top: 20px;
+  margin-bottom: 30px;
+}
+.noacc {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 111.111% */
+  margin-top: 30px;
+}
+span {
+    text-decoration: underline;
+    font-weight: bold;
+    cursor: pointer;
+    padding-left: 10px;
+}

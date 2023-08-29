@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Poppins:wght@300&display=swap');
 
-.button {
+button {
   width: 225px;
   padding: 17px 24px;
   gap: 12px;
