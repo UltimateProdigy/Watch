@@ -1,0 +1,41 @@
+.card {
+  width: 255px;
+  height: 301px;
+  background-color: #fff;
+  border-radius: 20px;
+  border: 1px solid #969696;
+}
+.bottomcard {
+  width: 255px;
+  height: 86px;
+  background-color: #fff;
+  margin-top: 190px;
+  border-radius: 0px 0px 20px 20px;
+  opacity: 0.95;
+  background: linear-gradient(148deg, #fff 0%, rgba(255, 255, 255, 0) 100%);
+  backdrop-filter: blur(10px);
+  margin-left: -1px;
+}
+.moviename {
+  color: #000;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 150% */
+  margin-left: 20px;
+  padding-top: 10px;
+}
+p {
+  color: #000;
+  font-family: Poppins;
+  line-height: 24px; /* 150% */
+  margin-left: 20px;
+  font-size: 13px;
+  padding-top: 5px;
+}
+.like {
+  margin-left: 200px;
+  margin-top: 30px;
+  
+}

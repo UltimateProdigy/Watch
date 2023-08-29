@@ -1,0 +1,17 @@
+.likebtn {
+    width: 28px;
+    height: 28px;
+    background-color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.filled {
+    display: none;
+    width: 27px;
+
+}
+.unfilled {
+    margin-left: 2px;
+    padding-top: 2px;
+}
