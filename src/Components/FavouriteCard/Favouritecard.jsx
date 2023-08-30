@@ -2,16 +2,17 @@ import React from "react";
 import "./FavouriteCard.css";
 import Likebutton from "../Like Button/Likebutton";
 
-const Favouritecard = ({ img, title, year, movietype }) => {
+
+const Favouritecard = ({ fimg, ftitle, fyear, fmovietype }) => {
   return (
-    <div className="favouritecard" style={{ backgroundImage: `url(${img})` }}>
+    <div className="favouritecard" style={{ backgroundImage: `url(${fimg})` }}>
       <div className="flike">
         <Likebutton />
       </div>
       <div className="favouritebottomcard">
-        <p className="favouritemoviename">{title}</p>
+        <p className="favouritemoviename">{ftitle}</p>
         <p>
-          {year} | {movietype}
+          {fyear} | {fmovietype}
         </p>
       </div>
     </div>

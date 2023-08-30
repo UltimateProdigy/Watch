@@ -5,6 +5,11 @@
   border-radius: 20px;
   border: 1px solid #969696;
 }
+.favouritecard:hover {
+  transform: scale(0.9);
+  transition: 0.5s;
+  cursor: pointer;
+}
 .flike {
   margin-left: 295px;
   margin-top: 25px;

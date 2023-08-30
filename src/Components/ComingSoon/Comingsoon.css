@@ -7,4 +7,5 @@ p {
     opacity: 0.8;
     padding-left: 15px;
     margin-top: 5px;
+    cursor: pointer;
   }

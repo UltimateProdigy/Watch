@@ -3,6 +3,7 @@ section {
   width: 80%;
   position: fixed;
   z-index: 999;
+  background: linear-gradient(to top, transparent);
 }
 
 .container {
@@ -21,6 +22,7 @@ section {
   line-height: 18px; /* 112.5% */
   list-style: none;
   padding: 0 20px;
+  cursor: pointer;
 }
 p {
   color: #fff;
@@ -31,7 +33,9 @@ p {
 .navbar2 {
   padding-right: 20px;
   margin-top: 3px;
+  cursor: pointer;
 }
 .profile {
   padding-right: 7px;
+  cursor: pointer;
 }

@@ -5,8 +5,9 @@
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: #111;
+  background-color: black;
   overflow-x: hidden;
+  overflow-y: hidden;
   padding-top: 20px;
   box-shadow: 2px 0px 90px 0px rgba(97, 0, 194, 0.40);
   

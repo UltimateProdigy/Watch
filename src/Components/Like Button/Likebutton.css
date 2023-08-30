@@ -9,9 +9,13 @@
 }
 .filled {
   display: none;
-  width: 27px;
+  width: 12px;
+  margin-left: 8px;
+  padding-top: 8px;
+
 }
 .unfilled {
-  margin-left: 2px;
-  padding-top: 2px;
+  margin-left: 8px;
+  padding-top: 8px;
+  width: 12px;
 }

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Poppins:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&family=Poppins:wght@300&display=swap");
 
 button {
   width: 225px;
@@ -6,10 +6,16 @@ button {
   gap: 12px;
   border-radius: 14px;
   background-color: #6100c2;
-  color: #FFF;
+  color: #fff;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
   line-height: 20px; /* 125% */
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+button:hover {
+  transform: scale(0.9);
+  transition: 0.5s;
+  cursor: pointer;
 }
