@@ -4,15 +4,17 @@
   border-radius: 10px;
   text-align: center;
   cursor: pointer;
-  background-color: #FFF;
+  background-color: #fff;
   backdrop-filter: blur(5.925926208496094px);
+  position: relative;
+  top: 50px;
+  left: 150px;
 }
 .filled {
   display: none;
   width: 12px;
   margin-left: 8px;
   padding-top: 8px;
-
 }
 .unfilled {
   margin-left: 8px;

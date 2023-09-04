@@ -38,8 +38,10 @@ const Trendingcard = () => {
     <div className="trendingmovies" id="style-1">
       {movies.map((movie) => (
         <div className="movielist">
+          <Likebutton />
           <img className="movieimages" src={`${MOVIE_IMAGE_URL_PREFIX}${movie.backdrop_path}`} />
           <p className="movietitle">{movie.title ? movie.title : movie.name}</p>
+          
         </div>
       ))}
     </div>
