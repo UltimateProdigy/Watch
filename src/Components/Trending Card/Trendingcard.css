@@ -1,22 +1,20 @@
 .trendingmovies {
   display: flex;
   justify-content: space-around;
-  overflow-x: scroll;
   padding-bottom: 10px;
-  overflow-y: hidden;
+  margin-left: 2410px;
+  margin-right: 2410px;
 }
 .movietitle {
-  font-size: 10px;
-  width: 100%;
-
-}
-img {
-
+  font-size: 15px;
 }
 .movielist {
-  width: 400px;
+  margin: 0 20px;
 }
-#style-1::-webkit-scrollbar-track
+img {
+  max-width: 200px;
+}
+/**#style-1::-webkit-scrollbar-track
 {
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.1);
 	background-color: #F5F5F5;
@@ -38,4 +36,4 @@ img {
 											  #371e4d 50%,
 											  #1e083a 51%,
 											  #240a33 100%);
-}
+}**/
