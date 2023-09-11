@@ -3,14 +3,29 @@ import "./App.css";
 import Sidebar from "./Components/Sidebar/Sidebar";
 import Navbar from "./Components/Navbar/Navbar";
 import Homepage from "./Pages/Homepage/Homepage";
+import {
+  BrowserRouter as Router,
+  Route,
+  Switch,
+} from "react-router-dom/cjs/react-router-dom.min";
+import MovieReview from "./Pages/MovieReview/MovieReview";
+import Tvseries from "./Pages/Series/Series";
 
 function App() {
   return (
-    <div>
-      <Sidebar />
-      <Navbar />
-      <Homepage />
-    </div>
+    <Router>
+      <div>
+        <Switch>
+          <Route path="/" exact>
+            <Sidebar />
+            <Navbar />
+            <Homepage />
+          </Route>
+          <Route path="/series" component={Tvseries} />
+          {/*<Route path="/:id" component={MovieReview} />**/}
+        </Switch>
+      </div>
+    </Router>
   );
 }
 

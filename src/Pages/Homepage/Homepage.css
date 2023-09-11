@@ -35,4 +35,7 @@ h3 {
 .trending-list {
   overflow-x: scroll;
 }
+.toprated-list {
+  overflow-x: scroll;
+}
 

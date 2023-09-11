@@ -1,23 +1,18 @@
-.trendingmovies {
+.movieTitle {
+  font-size: 15px;
+}
+.toprated {
   display: flex;
   justify-content: space-around;
   padding-bottom: 10px;
   margin-left: 2410px;
   margin-right: 2410px;
 }
-.trendingmovielist:hover {
+.topratedmovielist:hover {
   transition: 0.5s;
   transform: scale(0.9);
   cursor: pointer;
 }
-.movietitle {
-  font-size: 15px;
+.topratedmovielist {
+    margin: 0 20px;
 }
-.trendingmovielist {
-  margin: 0 20px;
-}
-img {
-  max-width: 200px;
-  border-radius: 10px;
-}
-

@@ -2,6 +2,7 @@ import React from "react";
 import "./Homepage.css";
 import Button from "../../Components/Button/Button";
 import Trendingcard from "../../Components/Trending Card/Trendingcard";
+import Toprated from "../../Components/TopRated/Toprated";
 
 const Homepage = () => {
   return (
@@ -14,6 +15,10 @@ const Homepage = () => {
       <h3>Trending</h3>
       <div className="trending-list">
         <Trendingcard />
+      </div>
+      <h3>Top-Rated</h3>
+      <div className="toprated-list">
+        <Toprated />
       </div>
     </div>
   );

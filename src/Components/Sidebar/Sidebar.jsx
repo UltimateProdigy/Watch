@@ -9,6 +9,7 @@ import Community from "../Community/Community";
 import Social from "../Social/Social";
 import Settings from "../Settings/Settings";
 import Logout from "../Logout/Logout";
+import { Link } from "react-router-dom/cjs/react-router-dom.min";
 
 const Sidebar = () => {
   return (
@@ -19,7 +20,8 @@ const Sidebar = () => {
       <div className="navitem">
         <ul className="nav1">
           <li>
-            <Home />
+            <Link to="/"><Home /></Link>
+            
           </li>
           <li>
             <Favourite />
