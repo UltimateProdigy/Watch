@@ -1,25 +1,21 @@
 .series {
-  display: flex;
-  justify-content: space-around;
-  padding-bottom: 10px;
-  margin-left: 2345px;
-  margin-right: 2410px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  margin-left: 5px;
 }
 .series-list {
-    margin: 0 20px;
+  margin: 0 20px;
 }
 .series-list:hover {
-    transform: scale(0.8);
-    transition: 0.5s;
-} 
+  transform: scale(0.8);
+  transition: 0.5s;
+}
 .tvseries {
-    padding-left: 20px;
-    padding-top: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
 }
 .seriename {
-    font-size: 15px;
-    font-weight: lighter;
+  font-size: 15px;
+  font-weight: lighter;
 }
-.seriescomponent {
-    overflow-x: scroll;
-}
+
