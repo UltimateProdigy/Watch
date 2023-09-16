@@ -4,7 +4,7 @@ import Logo from "../Logo/Logo";
 import Home from "../Home/Home";
 import Favourite from "../Favourite/Favourite";
 import Trending from "../Trending/Trending";
-import Comingsoon from "../ComingSoon/Comingsoon";
+import Nowplaying from "../ComingSoon/Nowplaying";
 import Community from "../Community/Community";
 import Social from "../Social/Social";
 import Settings from "../Settings/Settings";
@@ -30,7 +30,7 @@ const Sidebar = () => {
             <Trending />
           </li>
           <li>
-            <Comingsoon />
+            <Nowplaying />
           </li>
         </ul>
         <ul className="nav2">

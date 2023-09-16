@@ -30,7 +30,7 @@ const Trendingcard = () => {
         setLoading(true);
       })
       .catch((err) => {
-        console.log("There was an error while in getting movies...", err);
+        console.log("There was an error in getting movies...", err);
       });
   };
 
@@ -47,7 +47,7 @@ const Trendingcard = () => {
               <Likebutton />
               <img
                 className="movieimages"
-                src={`${MOVIE_IMAGE_URL_PREFIX}${movie.backdrop_path}`}
+                src={`${MOVIE_IMAGE_URL_PREFIX}${movie.poster_path}`}
               />
               <Link to={`/${movie.id}`}>
                 <p className="movietitle">

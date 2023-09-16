@@ -46,7 +46,7 @@ const Series = () => {
             <div className="series-list">
               <Likebutton />
               <img
-                src={`${IMAGE_BASE_URL_PREFIX}${serie.backdrop_path}`}
+                src={`${IMAGE_BASE_URL_PREFIX}${serie.poster_path}`}
                 alt=""
               />
               <h3 className="seriename">{serie.name}</h3>
@@ -57,7 +57,7 @@ const Series = () => {
         <Spinner />
       )}
     </>
-  );
+  )
 };
 
 export default Series;

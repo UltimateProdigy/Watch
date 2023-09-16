@@ -1,14 +1,14 @@
 import React from "react";
-import "./Comingsoon.css";
+import './Nowplaying.css'
 import calendar from "../../Assets/Images/calendar.png"
 
-const Comingsoon = () => {
+const Nowplaying = () => {
     return (
         <div className="flex">
             <img src={calendar} alt="" />
-            <p>Coming soon</p>
+            <p>Now Playing</p>
         </div>
     )
 };
 
-export default Comingsoon;
+export default Nowplaying;

@@ -47,7 +47,7 @@ const Toprated = () => {
             <div className="topratedmovielist">
               <Likebutton />
               <img
-                src={`${MOVIE_IMAGE_BASE_URL_PREFIX}${movie.backdrop_path}`}
+                src={`${MOVIE_IMAGE_BASE_URL_PREFIX}${movie.poster_path}`}
                 alt=""
               />
               <h3 className="movieTitle">{movie.title}</h3>
