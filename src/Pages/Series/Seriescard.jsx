@@ -47,7 +47,7 @@ const Series = () => {
               <Likebutton />
               <img
                 src={`${IMAGE_BASE_URL_PREFIX}${serie.poster_path}`}
-                alt=""
+                alt="series-images"
               />
               <h3 className="seriename">{serie.name}</h3>
             </div>
