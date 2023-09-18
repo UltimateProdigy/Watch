@@ -15,14 +15,14 @@ function App() {
   return (
     <Router>
       <div>
+        <Sidebar />
         <Switch>
           <Route path="/" exact>
-            <Sidebar />
             <Navbar />
             <Homepage />
           </Route>
           <Route path="/series" component={Tvseries} />
-          {/*<Route path="/:id" component={MovieReview} />**/}
+          {/**<Route path="/:id" component={MovieReview} />**/}
         </Switch>
       </div>
     </Router>

@@ -1,6 +1,6 @@
 .homepagebackground {
   padding-top: 250px;
-  background-image: url("../../Assets/Images/Movie\ Background.png");
+  background-image: url("../../Assets/Images/John-fotor-20230918122359.jpg");
 }
 .homepagebackground h1 {
   color: #fff;
@@ -37,5 +37,8 @@ h3 {
 }
 .toprated-list {
   overflow-x: scroll;
+}
+.moviegenre {
+  color: white;
 }
 

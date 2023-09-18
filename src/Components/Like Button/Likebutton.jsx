@@ -14,8 +14,8 @@ const Likebutton = ({className}) => {
   return (
     <div className={className}>
       <div onClick={handleClick} className="likebtn">
-        <img style={{display: toggle ? "block" : "none"}} className="filled" src={filledheart} alt="" />
-        <img style={{display: toggle ? "none" : "block"}} className="unfilled" src={unfilledheart} alt="" />
+        <img style={{display: toggle ? "block" : "none"}} className="filled" src={filledheart} alt="filledheart" />
+        <img style={{display: toggle ? "none" : "block"}} className="unfilled" src={unfilledheart} alt="emptyheart" />
       </div>
     </div>
   );

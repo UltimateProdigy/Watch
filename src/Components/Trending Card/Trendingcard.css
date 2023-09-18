@@ -5,6 +5,9 @@
   margin-left: 2410px;
   margin-right: 2410px;
 }
+.trendingmovielist {
+  margin: 0 20px;
+}
 .trendingmovielist:hover {
   transition: 0.5s;
   transform: scale(0.9);
@@ -13,11 +16,7 @@
 .movietitle {
   font-size: 15px;
 }
-.trendingmovielist {
-  margin: 0 20px;
-}
 img {
   max-width: 200px;
   border-radius: 10px;
 }
-
