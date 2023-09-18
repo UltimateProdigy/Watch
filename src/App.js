@@ -10,6 +10,7 @@ import {
 } from "react-router-dom/cjs/react-router-dom.min";
 import MovieReview from "./Pages/MovieReview/MovieReview";
 import Tvseries from "./Pages/Series/Series";
+import Movies from "./Pages/Movies/Movies";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
             <Homepage />
           </Route>
           <Route path="/series" component={Tvseries} />
+          <Route path="/movies" component={Movies}/>
           {/**<Route path="/:id" component={MovieReview} />**/}
         </Switch>
       </div>

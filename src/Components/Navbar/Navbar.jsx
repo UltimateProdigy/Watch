@@ -21,7 +21,9 @@ const Navbar = () => {
       <div className="container">
         <div className="firstcontainer">
           <ul className="list flex">
-            <li>Movies</li>
+            <Link to="movies">
+              <li>Movies</li>
+            </Link>
             <Link to="/series">
               <li>TV Series</li>
             </Link>
